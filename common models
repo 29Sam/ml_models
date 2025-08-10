@@ -1,0 +1,6 @@
+1)decision trees 
+tree like structure ofc 
+at each node tries to split up features using if else 
+can overfit the training data if they gow too deep
+ways to avoid this - pre-pruning - early stopping 
+                     post pruning -fully let it grow and then remove unnessary things that dont add value 
