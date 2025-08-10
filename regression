@@ -1,0 +1,13 @@
+linear regrssionm - simplest model that tries to find the relation betwwen x and y linearly 
+y=kx+b - by just knowing x , pu will be able to know the 'y'
+use any k and any b and generate lines and then  compare the sqaured error , pick that pair that gives the least sqaued error summed up
+
+polynomial regression 
+y=w1 x^3 +w2 x^2 +w3 x + b
+the idea is to catch even the non linear relationshoipns between x and y
+maximum degree of the polynomail to be used is manually provied by us .
+
+some regularization techniques - ridge , lasso and elastic net 
+1)ridge - some coeffcients shrink 'towards' zero giving less impact on prdiction 
+2)lasso - feature selection
+3)elestic net - uses both ridge and lasso 
